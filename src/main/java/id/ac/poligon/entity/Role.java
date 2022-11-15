@@ -1,5 +1,7 @@
 package id.ac.poligon.entity;
 
+
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 @Entity
@@ -9,6 +11,9 @@ public class Role {
 
     private String id;
     private String role;
+
+    // @OneToMany
+    // private List<User> user;
 
     public String getId() {
         return id;
